@@ -1,0 +1,427 @@
+{
+  "title": "Foundations of Law",
+  "subtitle": "Open Book Exam Companion — Interactive Mind Map",
+  "topics": [
+    {
+      "num": 1,
+      "title": "Introduction to law and its sources",
+      "key_concepts": [
+        "Law vs policy vs opinion. Law is binding, enforceable by courts, and backed by sanctions; policy is government direction/principle guiding decision-making (not itself enforceable); opinion is a personal view with no b...",
+        "Two major sources of law:",
+        "Case law (common law) — judicial decisions resolving specific disputes; historically the principal source; developed by judges in superior courts; operates through precedent (Topic 4).",
+        "Legislation (statute law) — Acts of Parliament and delegated/subordinate legislation (regulations, rules, by-laws made by the executive under delegated authority); became dominant in the 20th–21st centuries with incre...",
+        "Rule of law. Core contentions (Diceyan tradition): supremacy of regular law over arbitrary power; equality before the law (no one is above the law, including government); law is prospective, clear, stable; access to i...",
+        "Four meanings of “common law” (know all four — a classic definitional exam answer):",
+        "Historical — the system unifying England after the Norman Conquest (1066), replacing local customs.",
+        "Judge-made law — law developed through judicial decisions (case law), as distinct from statute.",
+        "Common law vs equity — principles of the common law courts, distinguished from the rules of equity administered in Chancery (pre-fusion).",
+        "Common law legal system — systems based on precedent (England, Australia, Canada, US) as opposed to civil law systems based on codes (France, Germany, Japan).",
+        "Classifications of law:",
+        "Public law — state and the individual (constitutional, administrative, criminal law) vs private law — between individuals (contract, tort, property)."
+      ],
+      "questions": [
+        {
+          "qnum": "Q1",
+          "question": "“Law is nothing more than the opinion of those in power.” Discuss.",
+          "answer": "Answer. I would not accept that statement, although it contains a grain of truth. Law is not opinion. It is a body of binding rules that comes from recognised sources: Acts of Parliament and decided cases. An opinion, even the opinion of a Prime Minister, changes nothing until it passes through one of those sources. The rule of law makes the point concrete. Governments in Australia are regularly restrained by courts. Under s 75(v) of the Constitution, the High Court can issue mandamus or prohibition against an officer of the Commonwealth, and it has struck down Commonwealth legislation that strayed beyond the s 51 heads of power. If law really were the opinion of the powerful, none of that could happen. The strongest version of the claim is Austin’s command theory, and even Austin required commands issued by a sovereign through settled processes, backed by sanctions. That is a system, not an opinion. Where the statement does bite is here: legislation often reflects the policy preferences of the majority. But reflecting power is one thing; being nothing more than opinion is another. Law binds the very people who make it, applies equally to everyone, and can only be changed through recognised procedures. Opinion does none of those things."
+        },
+        {
+          "qnum": "Q2",
+          "question": "Explain the difference between (a) public and private law and (b) civil and criminal law.",
+          "answer": "Answer. Public law deals with the relationship between the state and the individual. Constitutional law, administrative law and criminal law all sit here. Private law deals with relationships between individuals: contract, tort, property and equity. The distinction matters because each sphere has its own rules, procedures and remedies. Civil and criminal law cut across that divide in a different way. Criminal law is prosecuted by the state to punish and deter. The prosecution must prove guilt beyond reasonable doubt, and the outcome is conviction and sentence. Civil law settles disputes between persons and aims at a remedy, usually damages or an injunction. The plaintiff only has to prove the case on the balance of probabilities. The same conduct can attract both. An assault can be prosecuted by the state and sued on by the victim as a tort, and because the standards of proof differ, the civil claim can succeed even where the prosecution fails. So the labels tell you three things: who the dispute is between, what the proceeding is trying to achieve, and how strong the proof must be."
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "title": "Jurisprudence",
+      "key_concepts": [
+        "Definitions of law (know 2–3): Hart — “a system of rules” (The Concept of Law); Austin — “the command of a sovereign backed by sanction”; Dworkin — an interpretive concept aimed at justice; Raz — an authority mediatin...",
+        "Jurisprudence = the theory of law; study of the principles of law and legal systems and their philosophical basis, including law’s relationship to morality.",
+        "The four schools (lecturer: you MUST be able to characterise each):",
+        "Case study — The Case of the Speluncean Explorers (Fuller, 1949): fictional cave-in survivors kill and eat one companion; convicted of murder. Five judges map onto the schools: Truepenny CJ (strict application + cleme...",
+        "Companion case — R v Dudley and Stephens (1884) 14 QBD 273: shipwrecked sailors killed the cabin boy Richard Parker to survive; necessity is no defence to murder; deliberate killing of an innocent cannot be justified ...",
+        "Judicial methods (Kiefel CJ, ‘Judicial Methods in the 21st Century’, 2017): modern High Court practice — comprehensive written submissions since 1997; pre- and post-hearing conferences; first-draft allocation to avoid..."
+      ],
+      "questions": [
+        {
+          "qnum": "Q3",
+          "question": "“A judge who applies the rules without regard to justice has betrayed the law.” Discuss.",
+          "answer": "Answer. The statement is half right, and the schools of jurisprudence disagree about which half. Natural lawyers (Cicero, Aquinas, Finnis) would endorse it. For them, law and morality are connected, and a deeply unjust rule is a corruption of law, so a judge who ignores justice betrays law’s very nature. Positivists (Austin, Hart) reject it. A law is valid because of its source, not its content, and the judge’s job is to apply valid law; repairing injustice is Parliament’s work. Realists like Holmes would add that judges’ values shape outcomes whatever the theory says. Australian practice mostly sides with the positivists: judges apply the law as enacted, and Parliament fixes unjust laws. Yet justice is not locked out of the courtroom. Section 15AA of the Acts Interpretation Act 1901 (Cth) tells courts to prefer the meaning that best promotes a statute’s purpose, and the common law has always developed in ways influenced by fairness. My view is that the statement cuts both ways. A judge who ignores the rules betrays the law just as surely as one who ignores its purposes. Judicial duty is to do justice according to law, working within the rules while reading them in light of what they are for."
+        },
+        {
+          "qnum": "Q4",
+          "question": "Name the four main schools of Western legal thought and give one thinker and one key idea for each.",
+          "answer": "Answer. The four schools are these. (1) Common law: William Blackstone, Commentaries on the Laws of England (1765–69). Law is built up by judges through decided cases, and settled precedent protects liberty better than abstract codes. (2) Positivism: H L A Hart, developing Austin. Law is a system of rules whose validity depends on its source rather than its moral merit. Hart’s primary rules impose obligations; his secondary rules govern how laws are made, changed and identified. (3) Natural law: Thomas Aquinas. Law is a rational ordering towards the common good and must conform to universal moral principles; an enactment that gravely offends justice is not true law. (4) Legal realism: Oliver Wendell Holmes Jr. Law is what courts actually do, not what books say. “The life of the law has not been logic: it has been experience,” so the real question is predicting how judges will act in light of policy and social context. Each school answers a different question: where law comes from (common law), what makes it valid (positivism), what makes it good (natural law) and how it actually operates (realism). In an essay, the strongest answers set at least two schools against each other."
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "title": "Statutory interpretation",
+      "key_concepts": [
+        "Why it matters: Gummow — lawyers lack “deep appreciation of the techniques of statutory analysis”; Kirby — “the construction of statutes is now, probably, the single most important aspect of legal and judicial work… W...",
+        "The modern approach — text, context and purpose from the outset (THE exam formula):",
+        "Construction begins with the ordinary and grammatical meaning of the words, having regard to context and purpose: Australian Education Union v Department of Education and Children’s Services [2012] HCA 3 at [26].",
+        "“The starting point… is the text… whilst, at the same time, regard is had to its context and purpose. Context should be regarded at this first stage and not at some later stage and it should be regarded in its widest ...",
+        "CIC Insurance Ltd v Bankstown Football Club Ltd (1997) 187 CLR 384 at 408: the modern approach (a) insists context be considered in the first instance, not merely when ambiguity arises, and (b) uses ‘context’ in its w...",
+        "Pull-back to text (“full circle”): Chevron Australia Holdings v FCT [2017] FCAFC 62 (Allsop CJ) — beginning and ending with the words “is not a call to narrow textualism… Context, however, is indispensable”; FCT v Con...",
+        "Historical common law approaches (do NOT conflate them — examiner’s listed mistake):",
+        "Literal rule — apply the ordinary/natural meaning even if inconvenient: Amalgamated Society of Engineers v Adelaide Steamship Co Ltd (1920) 28 CLR 129 per Higgins J at 161–2 (“it is our duty to obey that meaning, even...",
+        "Golden rule — ordinary meaning unless it produces absurdity, repugnance or inconsistency, then modify only so far as needed: Grey v Pearson (1857) 6 HLC 61 per Lord Wensleydale.",
+        "Mischief rule (purposive ancestor) — Heydon’s Case (1584) 3 Co Rep 7a: (1) common law before the Act; (2) the mischief not provided for; (3) the remedy Parliament resolved; (4) construe to suppress the mischief and ad...",
+        "Legislated purposive approach:",
+        "s 15AA Acts Interpretation Act 1901 (Cth): the interpretation that would best achieve the purpose or object of the Act (whether or not expressly stated) is to be preferred to each other interpretation. Equivalent: s 3..."
+      ],
+      "questions": [
+        {
+          "qnum": "Q5",
+          "question": "Explain the golden rule of statutory interpretation, with authority.",
+          "answer": "Answer. The golden rule says a court should give statutory words their ordinary, grammatical meaning, unless that meaning produces an absurdity, a repugnance or an inconsistency with the rest of the Act. Only then may the court modify the meaning, and only as far as needed to avoid the absurdity. The authority is Lord Wensleydale in Grey v Pearson (1857) 6 HLC 61: the grammatical and ordinary sense is to be adhered to unless it leads to some absurdity or inconsistency with the rest of the instrument, in which case the sense may be modified to avoid that absurdity, but no further. Think of it as the literal rule with a narrow escape valve. It does not let the court rewrite the statute to reach what it considers a better policy, and mere harshness is not enough; the trigger is absurdity, repugnance or inconsistency, not inconvenience. The rule’s strength is that it respects parliamentary supremacy while protecting against results Parliament cannot have intended. Its weakness is that one judge’s “absurdity” is another’s hard case, which quietly lets discretion back in. In modern Australian practice the golden rule survives inside the wider text–context–purpose approach: any departure from the ordinary meaning still needs justification, and the justification must come from the statute itself."
+        },
+        {
+          "qnum": "Q6",
+          "question": "Explain the modern approach to statutory interpretation in Australia.",
+          "answer": "Answer. The modern approach works with three things at once: text, context and purpose. The court starts with the ordinary and grammatical meaning of the words, but reads them in context and in light of the statute’s purpose from the very beginning. SZTAL v Minister for Immigration and Border Protection [2017] HCA 34 at [14] says context is to be considered “at this first stage and not at some later stage”, and “in its widest sense”. CIC Insurance Ltd v Bankstown Football Club Ltd (1997) 187 CLR 384 explains that context includes the existing state of the law and the mischief the statute was meant to remedy, which can be seen in the reports behind the legislation. Parliament has confirmed all this. Section 15AA of the Acts Interpretation Act 1901 (Cth), and s 33 of the Interpretation Act 1987 (NSW), require the court to prefer the construction that best achieves the Act’s purpose or object, and Mills v Meeking (1990) 169 CLR 214 settled that you do not need to find an ambiguity first. If ambiguity or absurdity remains, extrinsic materials such as explanatory memoranda, second reading speeches and committee reports can be consulted under s 15AB. The limit is the text itself. Extrinsic materials cannot push the enacted words aside: FCT v Consolidated Media Holdings [2012] HCA 55. The court gives effect to what Parliament enacted, read in context and for its purpose."
+        },
+        {
+          "qnum": "Q7",
+          "question": "What difficulties arise when courts depart from the literal text of a statute?",
+          "answer": "Answer. Three difficulties arise, and together they explain why the High Court keeps pulling the inquiry back to the words. The first is legitimacy. A court’s job is to construe the statute, not to rewrite it. Mills v Meeking (1990) 169 CLR 214 insists that the interpretation must be capable of being related to the words actually used. A meaning with no anchor in the text is judicial legislation, which is hard to square with the separation of powers. The second is certainty. Citizens and their lawyers order their affairs by the enacted words. A court that departs from them makes the law unpredictable and, in effect, retrospective. That is why Certain Lloyd’s Underwriters v Cross [2012] HCA 56 says the purpose of a statute “resides in its text and structure”: purpose is discovered from the Act, not imposed on it. The third is the fiction of intention. Where Parliament never contemplated the situation, searching for its “intention” is artificial. The honest question is which available meaning fits best with the objects the statute actually discloses. The modern approach manages these difficulties rather than eliminating them. Begin with the text, use context and purpose to choose between genuinely available meanings, then check the chosen meaning against the words. Departures remain possible, but they have to be justified by the statute itself."
+        },
+        {
+          "qnum": "Q23",
+          "question": "Explain the maxims of statutory interpretation and illustrate one with a case.",
+          "answer": "Answer. The maxims are common law guides to meaning, used alongside the text–context–purpose approach. Noscitur a sociis says a word is known by its companions: an ambiguous word takes its colour from the words around it. Ejusdem generis says that where specific words forming a class are followed by general words, the general words are read down to that class. It needs at least two specific words connected enough to form a class: in LEPRA’s “dangerous implement” definition, “knife blade, razor blade” form a class that limits “any other blade”. Expressio unius est exclusio alterius says the express mention of one thing excludes others, unless the statute says “includes” or “such as”. Generalia specialibus non derogant says general provisions do not override specific ones; the general is read down. Meredith v State of NSW (No 5) [2025] NSWSC 1133 shows noscitur a sociis at work. The question was whether “genital area” in s 32(6) LEPRA included the anal area. The court held it did: the surrounding words dealt with private parts of the body, and the section’s purpose was preserving privacy and dignity during particularly invasive searches, so “as a matter of common sense and ordinary construction” the anus was included [220]–[222]. The maxims are not rigid rules. They are servants of purpose, helping the court find the meaning that best fits what the statute is trying to do."
+        },
+        {
+          "qnum": "Q24",
+          "question": "Why are statutory powers that deprive a person of liberty strictly construed?",
+          "answer": "Answer. Because individual liberty is a fundamental right, and Parliament is presumed not to take it away without clear words. Where a statute authorises interference with liberty, through arrest, search or detention, ambiguity is resolved in favour of the person whose liberty is at stake. Meredith v State of NSW (No 5) [2025] NSWSC 1133 applies the principle directly. Strip searches are “highly invasive incursions to a person’s liberty”, so the LEPRA powers and their safeguards were strictly construed, with ambiguity resolved in favour of the person searched [143], [184]. Strict construction gives real force to mandatory language. Where LEPRA says an officer “must” comply with the ss 32–33 safeguards, the duty admits no discretion (Interpretation Act 1987 (NSW) s 9), and non-compliance makes the search illegal [180], [187]. The principle also fits the wider purpose analysis. LEPRA’s object, drawn from its long title and second reading speech, is to balance effective police powers against individual rights [138]. Strict construction of the power is how the court strikes that balance. The same instinct appears in constitutional doctrine. In NZYQ [2023] HCA 37, indefinite executive detention was held punitive and invalid, because depriving liberty by way of punishment belongs exclusively to the judiciary. Clear words are the price Parliament must pay to curtail liberty."
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "title": "Doctrine of precedent",
+      "key_concepts": [
+        "Stare decisis — “stare decisis et non quieta movere” = “stand by the thing decided and do not disturb the calm” (Telstra Corporation Ltd v Treloar (2000) 102 FCR 595 per Branson and Finkelstein JJ).",
+        "Rationale (four policy categories — Telstra v Treloar):",
+        "Certainty — law furnishes a clear guide; citizens arrange affairs with confidence.",
+        "Equality — like cases treated alike.",
+        "Efficiency — decided issues need not be re-argued.",
+        "Appearance of justice — impersonal rules, not judges’ personal views.",
+        "The rules of precedent (learn as a list):",
+        "Each court is bound by decisions of higher courts in the same hierarchy.",
+        "The highest court in a hierarchy can overrule its own previous decisions (HCA; note the Practice Statement (Judicial Precedent) [1966] 1 WLR 1234 (HL)).",
+        "A judge is not bound by other judges at the same level in the same hierarchy (though comity favours following).",
+        "Decisions of courts in a different hierarchy may be persuasive but not binding.",
+        "Only the ratio decidendi (the decision on the material facts / ruling necessary to the decision) binds."
+      ],
+      "questions": [
+        {
+          "qnum": "Q8",
+          "question": "“Dissenting judgments contribute nothing to the law.” Discuss.",
+          "answer": "Answer. That is plainly wrong. Dissents are one of the main ways the common law grows. Only the majority’s reasoning binds, but a dissent preserves the losing argument in fully worked form, authorities and all. That does three useful things. It exposes the majority’s reasoning to scrutiny by practitioners, academics and later courts. It keeps a ready-made alternative on the shelf for the day the precedent is revisited, which happens when an earlier decision turns out to be manifestly wrong or to produce unintended consequences (Telstra Corporation Ltd v Treloar (2000) 102 FCR 595). Australian legal history is full of dissents that later became the law. And the prospect of a reasoned dissent makes majorities write better judgments. Kiefel CJ’s account of the High Court’s conference practice describes exactly this: knowing a colleague may dissent forces assumptions into the open. There is a cost, of course. Fragmented decisions with multiple separate judgments make the ratio harder to find, and certainty is one of the things precedent is for. But that argues for disciplined, clear majorities, not for the claim that dissents contribute nothing. The accurate statement is narrower: dissents contribute nothing binding. To the law’s content, quality and future direction, they contribute a great deal."
+        },
+        {
+          "qnum": "Q9",
+          "question": "Explain the doctrine of stare decisis, its rationale, and its basic rules.",
+          "answer": "Answer. Stare decisis means “stand by the thing decided”: courts follow previous decisions. The rationale comes from Telstra Corporation Ltd v Treloar (2000) 102 FCR 595 and has four strands. Certainty lets people arrange their affairs. Equality means like cases are treated alike. Efficiency means decided issues do not have to be re-argued. And following impersonal rules rather than personal preferences preserves the appearance of justice. The basic rules are these. (1) A court is bound by decisions of courts above it in the same hierarchy. (2) The highest court may overrule its own decisions, cautiously, where the earlier decision was manifestly wrong. (3) A judge is not bound by another judge at the same level, though comity encourages following. (4) Decisions from other hierarchies, such as other States or England, are persuasive only. (5) Only the ratio decidendi binds; obiter dicta merely persuade. (6) Precedents do not expire with age; Pinnel’s Case (1602) is still cited. In Australia there is a single common law with the High Court at its apex under s 73 of the Constitution (Lipohar v R (1999) 200 CLR 485), and State intermediate courts must follow each other’s decisions unless convinced they are plainly wrong (Farah Constructions). The doctrine balances stability against the capacity for principled change."
+        },
+        {
+          "qnum": "Q10",
+          "question": "Distinguish ratio decidendi from obiter dicta, and explain why the distinction matters.",
+          "answer": "Answer. The ratio decidendi is the ruling necessary to justify the decision. MacCormick’s formulation is the standard one: a ruling sufficient to settle a point of law put in issue by the parties, where a ruling on that point was necessary to justify the outcome. Obiter dicta, “remarks by the way”, are everything else: observations, illustrations, hypotheticals, reasoning that goes beyond what the decision needed. The distinction matters for three reasons. First, binding force. Only the ratio binds later courts; obiter persuades but never compels. McHugh J put it bluntly in Coleman v Power (2004) 220 CLR 1: “Cases are only authorities for what they decide.” Second, argument quality. A view expressed without full argument from the parties is not ratio and does not bind (Taylor v Rudaks), so careful lawyers check whether the point was actually in issue. Third, flexibility. The distinction gives later courts principled room to move. A court can escape an inconvenient precedent by showing the earlier statement was obiter, or that the material facts differ, without defying the doctrine itself. None of this makes obiter worthless. Considered obiter of the High Court carries great persuasive weight and is often treated as if binding. But the line between ratio and obiter is the line between what courts must follow and what they may follow, which is why finding the ratio is the first skill of case analysis."
+        },
+        {
+          "qnum": "Q25",
+          "question": "When will the High Court overrule one of its own decisions?",
+          "answer": "Answer. Rarely, and with real reluctance. French CJ in Wurridjal described the approach as “a strongly conservative cautionary principle, adopted in the interests of continuity and consistency in the law, that such a course should not lightly be taken”, words quoted in NZYQ v Minister for Immigration [2023] HCA 37 at [17]. The considerations cannot be exhaustively listed, but the court will reopen a decision where it was wrong in a respect that matters, where it has produced or risks producing serious injustice, and where the case for change outweighs the values of certainty and reliance. NZYQ is the model. Al-Kateb v Godwin (2004) 219 CLR 562 had held that the Migration Act authorised indefinite detention of a person with no real prospect of removal, and that this did not contravene Chapter III. In NZYQ the court held Al-Kateb was right about the statute’s construction, so that holding stood, but wrong about constitutional validity. Indefinite detention untethered from any prospect of removal is punishment, and punishment is exclusively judicial power. The constitutional holding was reopened, Al-Kateb was overruled, and the court returned to Chu Kheng Lim (1992) 176 CLR 1. Two practical points follow. Only the High Court can overrule the High Court; intermediate courts must follow (Farah). And overruling does not reopen matters already finally decided between the parties. The doctrine permits principled correction while protecting the stability precedent exists to serve."
+        },
+        {
+          "qnum": "Q26",
+          "question": "Set out the ways in which a precedent may be used.",
+          "answer": "Answer. There are five uses. Applied: the precedent is followed because the law and the material facts are sufficiently similar that the earlier reasoning answers the present question. This short-cuts the analysis, as when State Chamber of Commerce v Commonwealth (1987) 163 CLR 329 is cited for the proposition that dictionaries may be used. Distinguished: the precedent is acknowledged but shown not to govern, because of a material difference in the law or the facts. The advocate notes the authority, then identifies the difference. Buckoke v Greater London Council, necessity for running a red light, is different from necessity as a defence to murder in Dudley and Stephens; in Dudley itself the Franconia Case was distinguished on its facts. Overruled: a court at the same or a higher level declares the earlier principle wrong, so it ceases to be authority and lower courts need no longer follow it, as when the HCA overruled Al-Kateb in NZYQ. Past final decisions are not reopened. Considered: the decision is persuasive only, from other States, the United Kingdom or other common law countries. It need not be followed but may carry real weight. Cited: referred to in argument for any of these purposes. The technique matters as much as the labels. State the authority, state which use you are making of it, and justify that use by comparing the law and the material facts."
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "title": "Legal research",
+      "key_concepts": [
+        "Research strategy (Library Research Seminar):",
+        "Start with secondary sources (textbooks, encyclopaedias — Halsbury’s Laws of Australia, The Laws of Australia; journal articles) to frame the issue and harvest references to primary law.",
+        "Find legislation: Federal Register of Legislation (legislation.gov.au) for Cth; NSW Legislation (legislation.nsw.gov.au); use point-in-time versions where the relevant date matters; check commencement provisions; Note...",
+        "Find cases: with a citation → AustLII, BarNet Jade, Lexis+, Westlaw; without a citation → subject searching, digests and citators (CaseBase, FirstPoint, LawCite) to check subsequent treatment (followed/distinguished/o...",
+        "Verify currency: check whether a case is still good law and whether legislation is current or amended.",
+        "Key tools: AustLII (free), JADE, Lexis+ and Westlaw (via Library), Canvas reading lists, Library guides; authorised law reports preferred for citation (CLR, NSWLR etc.)."
+      ],
+      "questions": [
+        {
+          "qnum": "Q11",
+          "question": "A client asks whether conduct in 2019 breached a NSW Act. Describe your research process.",
+          "answer": "Answer. I would work through five steps. First, secondary sources: a textbook or Halsbury’s Laws of Australia, to identify the relevant Act and the leading cases before touching the primary materials. Second, find the Act on the NSW Legislation website and pull up the point-in-time version in force in 2019, because the client’s conduct is governed by the law as it then stood, not by today’s consolidated version. The commencement provisions and amendment history tell you what the text said at the relevant date. Third, read the Act as a whole: the definitions section first, then the operative provisions, then the Interpretation Act 1987 (NSW) for general rules about words like “person” and for the purposive approach in s 33. Fourth, find the cases through AustLII or JADE, starting with the highest courts, then check every case in a citator such as CaseBase, FirstPoint or LawCite. That tells you whether the case has been reversed or overruled and where the authorised report is, which is the version to cite. Fifth, bring it together: advise on liability under the 2019 law, and note the current law for procedure, limitation periods and remedies. Every step answers the two questions that define legal research: what is the law, and is it still the law. A research trail that cannot answer the second question is unfinished."
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "title": "Legal referencing",
+      "key_concepts": [
+        "Why reference: lets the reader find and evaluate sources; transmits knowledge accurately; demonstrates grasp of materials; avoids plagiarism. Plagiarism consequences are severe — Re Liveri [2006] QCA 152 (admission as...",
+        "AGLC4 essentials (assignments):",
+        "Sources cited in footnotes (not in-text author–date); pinpoint references required when quoting or referring to a specific part (page, or [paragraph] for medium neutral citations).",
+        "Cases: Case Name (Year) Volume Report Series Page — italics; square brackets [year] where the year is the volume identifier; medium neutral: Case Name [Year] Court Number [pinpoint], e.g. Re Culleton [2017] HCA 3 [38]...",
+        "Legislation: Short Title Year (Jurisdiction) s X — Act title italicised; sections ‘s’, schedules ‘sch’.",
+        "Books: Author, Title (edition, Publisher, Year) page. Articles: Author, ‘Title’ (Year) Volume(Issue) Journal Page, pinpoint.",
+        "Bibliography at end, divided into Articles/Books/Reports, Cases, Legislation, Other.",
+        "Failure to include pinpoints is “one of the more common errors made by new law students” (Laying Down the Law, ch 21).",
+        "Court citation practice: Supreme Court Practice Note SC Gen 20.",
+        "EXAM RULE (lecturer): formal citation is not required in the exam — identifying the case and legislation (name + year/section) suffices."
+      ],
+      "questions": [
+        {
+          "qnum": "Q12",
+          "question": "“Referencing is mere pedantry.” Discuss.",
+          "answer": "Answer. Referencing does three real jobs, so it is not pedantry. It lets the reader verify the sources relied on. It transmits knowledge accurately, so a proposition can be traced to its origin. And it separates your ideas from other people’s, which is what intellectual honesty requires. AGLC4 puts those functions into practice: footnotes with pinpoint references to the exact page or paragraph, correct citation forms for cases and legislation, and a bibliography sorted by source type. The consequences of treating this lightly are serious. In Re Liveri [2006] QCA 152 a graduate was refused admission as a legal practitioner because she had passed off others’ work as her own; plagiarism went to her fitness to practise. Two qualifications keep the point in proportion. The level of formality depends on context. In the open-book exam, identifying the case or section is enough and full AGLC citation is not required; in a court document, precision is mandatory. And referencing should serve the argument rather than decorate it; a string of citations is no substitute for analysis. But neither qualification makes referencing pedantic. It is part of legal reasoning itself, the visible link between an assertion and its authority. That link is what makes legal argument checkable, and checkable argument is what makes it trustworthy."
+        }
+      ]
+    },
+    {
+      "num": 7,
+      "title": "Legal problem solving",
+      "key_concepts": [
+        "IRAC method:",
+        "Issue — identify the legal question(s) raised by the facts. Frame precisely (per party, per cause of action).",
+        "Rule — state the governing law: statute sections and/or case principles, with elements.",
+        "Application — apply each element to the facts; argue both sides where facts are equivocal; deal with red herrings by dismissing them as irrelevant.",
+        "Conclusion — advise on the most likely outcome and remedy.",
+        "Lecturer’s practical rules (Week 2):",
+        "Establish who the client is first; family members may have conflicting interests.",
+        "Work through the facts paragraph by paragraph, separating relevant from irrelevant.",
+        "The exam facts will contain a vague representation — argue whether it suffices and map both branches (“maybe, maybe not — if, if not, these are the ways this would play out”).",
+        "Always check definitions in the Act and the interpretation legislation (e.g. “person”, “premises”, “supply”).",
+        "Identify the correct entity and the correct court before advising on process."
+      ],
+      "questions": [
+        {
+          "qnum": "Q13",
+          "question": "Set out the steps you would follow to answer a problem question.",
+          "answer": "Answer. I would follow IRAC. Issue: work through the facts paragraph by paragraph, separate what is legally relevant from what is not, and identify the precise legal question for each party. Start by working out who your client is and who the correct defendant would be. Rule: state the law from the highest authority available, the statute first (read the operative section, then check the definitions), then the cases. Break the rule into numbered elements so each can be dealt with in turn. Application: apply each element to the facts, not the other way round. Where the facts contain a deliberately vague representation or an ambiguous act, argue both sides: if it satisfies the element, one result follows; if not, the other. Then say which is more likely and why. Conclusion: advise on the most probable outcome and the available remedy, including the correct court and, in consumer matters, the correct respondent. A few practical points for the exam. Allow about 45 minutes per 20-mark question. Expect to write roughly 1,000 words an hour. Write in full sentences and developed paragraphs, never point form, because the examiner rewards thesis-driven argument rather than regurgitation. Tie every proposition of law to a section number or a case. IRAC is not a straitjacket; it is the skeleton that keeps a complete answer from collapsing, and it guarantees no element, party or remedy is overlooked."
+        }
+      ]
+    },
+    {
+      "num": 8,
+      "title": "First Nations law & Indigenous Australians and the law",
+      "key_concepts": [
+        "First Peoples’ law before 1788: 65,000+ years of legal systems; 250+ language groups with defined territories; law embedded in the Dreaming; songlines as oral legal maps; elders administering restorative justice (reco...",
+        "Colonisation and terra nullius: Cook (1770) claimed the east coast as New South Wales; loss of the American colonies (1783) and the penal crisis drove the First Fleet (arrived January 1788; colony proclaimed 7 Februar...",
+        "Reception of English law: received on settlement and formalised by the Australian Courts Act 1828 (Imp) — reception date 25 July 1828 for NSW (and later Qld/Vic); WA 1 June 1829; SA 28 December 1836; ACT/NT 1 January ...",
+        "Jurisdiction over Indigenous peoples (erosion of autonomy): R v Ballard (1829) — early reluctance to apply English law to intra-Indigenous disputes; R v Murrell (1836) — asserted universal jurisdiction; denied Indigen...",
+        "Mabo v Queensland (No 2) (1992) 175 CLR 1 — the landmark:",
+        "Eddie Koiki Mabo and Meriam plaintiffs claimed traditional rights over the Murray Islands.",
+        "Held: terra nullius rejected — a discriminatory legal fiction; Indigenous peoples had their own laws and connection to country.",
+        "Native title recognised as part of the common law: its content comes from the traditional laws and customs of the Indigenous inhabitants; it survived the Crown’s acquisition of sovereignty.",
+        "The Crown acquired radical title, burdened by native title; sovereignty itself could not be questioned in municipal courts.",
+        "Extinguishment: by valid Crown grant of inconsistent tenure (e.g. freehold) or by legislation evincing a clear and plain intention; partial extinguishment possible.",
+        "Brennan J at 39: “The facts as we know them today do not fit the ‘absence of law’ or ‘barbarian’ theory… there is no warrant for applying in these times rules of the English common law which were the product of that t...",
+        "Political and legislative reactions:"
+      ],
+      "questions": [
+        {
+          "qnum": "Q14",
+          "question": "“Mabo changed everything — and nothing.” Discuss.",
+          "answer": "Answer. The statement captures something real. Mabo changed everything in doctrine. In Mabo v Queensland (No 2) (1992) 175 CLR 1 the High Court rejected terra nullius as a discriminatory fiction and recognised native title as part of the common law: title grounded in traditional laws and customs, surviving as a burden on the Crown’s radical title. That reversed Milirrpum v Nabalco (1970) and produced the Native Title Act 1993 (Cth). Yet in three respects Mabo changed nothing. Sovereignty was untouched. The Court refused to examine the Crown’s acquisition of sovereignty, and Walker v NSW (1994) confirmed there is one criminal law for all Australians, so no parallel Indigenous jurisdiction exists. Extinguishment remained broad and permanent: inconsistent Crown grants extinguish native title, and freehold extinguishes it forever (Fejo (1998)). Wik (1996) allowed coexistence with pastoral leases, but the 1998 amendments narrowed native title rights again. And structural disadvantage continued: over-representation in custody persists, and the 2023 Voice referendum failed. So the aphorism holds up. Mabo changed the common law’s foundational premise, that Indigenous law and connection to country pre-existed settlement and survived it. But it left the practical extent of native title to politics, and politics has steadily narrowed it. “Everything and nothing” is pointed, but fair."
+        },
+        {
+          "qnum": "Q15",
+          "question": "How can native title be extinguished? Give authority.",
+          "answer": "Answer. Native title is extinguished in two main ways, and inconsistency is the test for both. The first is an inconsistent Crown grant. Where the Crown validly grants an interest inconsistent with the continued enjoyment of native title, the native title yields. In Fejo v Northern Territory (1998) 195 CLR 96 the High Court held that a grant of freehold extinguishes native title permanently; it does not revive if the land later returns to the Crown, because extinguishment is not mere suspension. Pastoral leases are different. Under Wik Peoples v Queensland (1996) 187 CLR 1, a pastoral lease does not necessarily extinguish native title, because leaseholders were not given exclusive possession, so native title rights can coexist with the lease. Where the rights actually conflict, though, the leaseholder’s rights prevail. The second way is legislation showing a clear and plain intention to extinguish, a demanding test, but one met by laws granting interests or authorising acts inconsistent with native title. Extinguishment can also be partial. Some rights, such as non-exclusive access for hunting or fishing, may survive even where others are lost. Statute frames the whole field: the Native Title Act 1993 (Cth) validated past grants that were invalid because of native title, while the Racial Discrimination Act 1975 (Cth), as Mabo (No 1) established, protects native title against discriminatory extinguishment."
+        },
+        {
+          "qnum": "Q27",
+          "question": "How is native title defined and proved under the Native Title Act 1993 (Cth)?",
+          "answer": "Answer. Section 223 defines native title as the communal, group or individual rights and interests of Aboriginal peoples or Torres Strait Islanders in relation to land or waters, where three things are true: (a) the rights and interests are possessed under the traditional laws acknowledged and traditional customs observed; (b) by those laws and customs, the people have a connection with the land or waters; and (c) the rights and interests are recognised by the common law. Three consequences follow. First, the Act creates nothing. The rights find their origin in pre-sovereignty law and custom, not in the statute (Yorta Yorta (2002) 214 CLR 422), and where the Act is silent the common law operates (WA v Commonwealth (1995)). Second, proof is by evidence. The traditional laws and customs, and the continuing connection, must be established in each claim, and they also fix the scope and content of the title: a “bundle of rights” that may range from non-exclusive access to something close to exclusive possession (ALRC 2015). Third, recognition can be defeated by extinguishment: inconsistent grants, clear legislation, or loss of connection. Once determined, native title is held and managed by a prescribed body corporate registered with the National Native Title Tribunal. Compensation is available for acts that impaired the title. In Northern Territory v Griffiths (Timber Creek) [2019] HCA 7 the High Court upheld $1.3 million for spiritual loss, with a 50% discount on freehold value reflecting the non-exclusive nature of the title, the first recognition of compensation for cultural and spiritual harm."
+        }
+      ]
+    },
+    {
+      "num": 9,
+      "title": "English legal and constitutional foundations",
+      "key_concepts": [
+        "Development of the common law: Before 1066, law was local custom (Anglo-Saxon county/hundred courts). The Norman Conquest (1066) brought feudalism (all land held of the Crown — knight service, socage, serjeanty, frank...",
+        "The three common law courts: Exchequer (revenue), Common Pleas (civil disputes between subjects, fixed at Westminster per Magna Carta), King’s Bench (Crown/criminal matters and supervisory jurisdiction via prerogative...",
+        "The writ system: a writ = formal written order in the King’s name, issued by Chancery, each writ defining a cause of action (“no writ, no remedy”). The Provisions of Oxford (1258) restricted the issue of new writs → r...",
+        "Magna Carta (1215; reissued 1216–17, 1225; confirmed 1297): baronial check on King John; fixed courts at Westminster; due process (“except by the lawful judgment of his peers or the law of the land”); justice not sold...",
+        "Equity — nature and contribution: a supplementary, discretionary, conscience-based system correcting common law rigidity (Maitland: “Equity had come not to destroy the law, but to fulfil it”). Contributions: the trust...",
+        "Maxims of equity (lecturer: “they come up often in the exam”):",
+        "Equity will not suffer a wrong to be without a remedy.",
+        "Equity follows the law (respects legal rights; prevents their unconscionable use).",
+        "Those who seek equity must do equity (e.g. be “ready, willing and able” to perform).",
+        "Those who come into equity must come with clean hands (misconduct in the matter bars relief).",
+        "Equity assists the diligent, not the tardy — laches (unreasonable delay prejudicing the defendant bars relief).",
+        "Equity looks to the intent rather than the form (substance over formalities)."
+      ],
+      "questions": [
+        {
+          "qnum": "Q16",
+          "question": "“Equity came not to destroy the law, but to fulfil it” (Maitland). Discuss.",
+          "answer": "Answer. Maitland is right: equity supplements the common law rather than replacing it. Equity exists because the common law became rigid. After the Provisions of Oxford (1258) stopped the creation of new writs, deserving cases that fitted no existing writ had no remedy at all. Litigants petitioned the King, the petitions went to the Chancellor, and the Court of Chancery grew into a parallel system deciding according to conscience. Equity supplied what the common law lacked: the trust, the injunction, specific performance, rescission and rectification, all discretionary and all guided by its maxims. Clean hands. Laches. Equity follows the law. Equity looks to the intent rather than the form. The two systems clashed in the Earl of Oxford’s Case (1615), and James I settled it: where law and equity conflict, equity prevails. Administrative fusion came two and a half centuries later with the Judicature Acts 1873–75, which merged the courts so both systems are administered in the same proceeding. NSW adopted that reform in s 57 of the Supreme Court Act 1970 (NSW). So the relationship is one of completion, not destruction. Equity fulfils the law by supplying remedies where the legal rules run out. The one qualification worth making is that equity’s priority on conflict makes it a quiet senior partner rather than a mere assistant. It fulfils the law, but sometimes it corrects it."
+        },
+        {
+          "qnum": "Q17",
+          "question": "What was a writ, and why did the writ system lead to the development of equity?",
+          "answer": "Answer. A writ was a formal written order issued in the King’s name by the Chancery, and it did two jobs at once. Procedurally, it authorised legal action, for example ordering a defendant to appear and answer. Substantively, it defined the cause of action: each type of writ was a different type of claim, such as the writ of novel disseisin for a person dispossessed of land. The system was a catalogue of remedies, and the rule was simple: no writ, no remedy. It led to equity because it froze. The Provisions of Oxford (1258) restricted Chancery from framing new writs, so as society’s disputes grew more varied, new kinds of grievance could not be fitted into the old forms, and the common law courts had nothing to offer. People shut out in this way petitioned the King for justice. The King referred the petitions to the Chancellor, usually a churchman, who decided them according to conscience rather than the strict forms of action. Over time those decisions hardened into the body of principle called equity: flexible where the common law was rigid, and able to give remedies the common law courts could not, such as injunctions and specific performance. The writ system’s failure is therefore the direct historical cause of equity. The rigidity of “no writ, no remedy” created the demand, and Chancery supplied it."
+        }
+      ]
+    },
+    {
+      "num": 10,
+      "title": "Australian legal institutions",
+      "key_concepts": [
+        "The Constitution: drafted at conventions (1891, 1897–98); approved by colonial referenda; enacted as s 9 of the Commonwealth of Australia Constitution Act 1900 (UK) (Royal Assent 9 July 1900); in force 1 January 1901....",
+        "Separation of powers (lecturer: “learn it properly and regurgitate it”):",
+        "Chapter I — Legislative power: the Parliament = the Crown (King/G-G), Senate and House of Representatives (s 1). Makes laws.",
+        "Chapter II — Executive power: vested in the Crown, exercisable by the Governor-General (s 61); PM, Cabinet, departments; administers laws. Ministers must be/become MPs (s 64 — responsible government).",
+        "Chapter III — Judicial power: vested in the High Court and such other federal courts as Parliament creates, and courts invested with federal jurisdiction (s 71); tenure/salary protection (s 72 — judicial independence).",
+        "“Washminster”: legislative and executive are fused in practice (Westminster responsible government — ministers sit in Parliament); the judiciary is strictly separated (federal influence). Parliament delegates law-maki...",
+        "The Crown and Governor-General: constitutional monarchy; the King acts on ministerial advice (s 2 appoints G-G on PM’s advice). Reserve powers (exceptional, convention-governed): appoint/dismiss a PM; refuse/dissolve ...",
+        "Representative government: ss 7 and 24 — Senate and House “directly chosen by the people”; s 28 regular elections. Foundation for the implied freedom of political communication (Lange v ABC (1997) 189 CLR 520).",
+        "Commonwealth Parliament: Senate — 12 per State + 2 each ACT/NT = 76 (equal State representation); House of Representatives — population-based (each State ≥ 5 seats). Bills must pass both Houses and receive assent (s 5...",
+        "Division of powers (must know — lecturer):",
+        "s 51 — enumerated (concurrent) heads of Cth power: trade and commerce (i), taxation (ii), defence (xxxi/xxxii), external affairs (xxix), corporations (xx), marriage (xxi), immigration (xxvii), industrial arbitration (...",
+        "s 52 — exclusive Cth powers (e.g. seat of government, public service)."
+      ],
+      "questions": [
+        {
+          "qnum": "Q18",
+          "question": "The Commonwealth has only limited, enumerated powers — so why does it dominate Australian governance?",
+          "answer": "Answer. The text of the Constitution creates a federal balance. The Commonwealth has enumerated powers (ss 51–52), the States keep the residue (ss 106–108), and Commonwealth law prevails on inconsistency (s 109). The Commonwealth dominates because of how the High Court has read that text, and because of fiscal design. Four cases tell the story. The Engineers’ Case (1920) read the s 51 heads literally and broadly, rejecting the implied immunities that had protected the States. The First Uniform Tax Case (1942) upheld a scheme under which the Commonwealth monopolised income tax through s 51(ii) together with tied grants under s 96; the States have been financially dependent ever since. The Tasmanian Dam Case (1983) held that the external affairs power, s 51(xxix), supports legislation implementing treaties even on otherwise local matters, and read the corporations power broadly. WorkChoices (2006) confirmed that reading of s 51(xx), sustaining national workplace regulation of the employees of constitutional corporations. So Commonwealth dominance is real but contingent. It rests on doctrine and fiscal arrangements, not on anything the constitutional text says outright. The limits still matter. A Commonwealth law must be characterised under a head of power, and laws that cannot be, fall. Challenges to overreach still succeed from time to time, which is why the enumeration in s 51 remains worth studying."
+        },
+        {
+          "qnum": "Q28",
+          "question": "Use Meredith v State of NSW (No 5) [2025] NSWSC 1133 to illustrate how the three arms of government interact.",
+          "answer": "Answer. Meredith shows the separation of powers working as a system of accountability. Parliament makes the law. Acting under s 5 of the Constitution Act 1902 (NSW), the NSW Parliament enacted LEPRA, conferring search powers (s 21) hedged with safeguards (ss 31–33), and authorised delegated legislation (s 238). The executive administers the law. The Minister for Police is responsible for LEPRA, and the NSW Police Force turns its general provisions into policies, operational orders and training applied by officers on the ground. The judiciary interprets and applies the law. The Supreme Court construed LEPRA using the purposive approach, held the strip search at Splendour in the Grass unlawful, and ordered the State, the executive arm, to pay damages. The case also shows two disciplines on the executive. As a litigant, the State must be a model litigant, acting with complete propriety and the highest ethical standards. Its baseless defence attracted aggravated damages of $20,000. As an administrator, systemic failure by senior officers to train and supervise exposed the State to exemplary damages, the court’s condemnation and deterrent [651]–[665]. Parliament’s safeguards, executive failure, judicial remedy. Each arm performed its constitutional role, and the citizen’s remedy came from the courts holding the executive to the legislature’s standard."
+        },
+        {
+          "qnum": "Q30",
+          "question": "A Commonwealth law and a NSW law both apply to the same conduct. Explain how s 109 resolves the conflict.",
+          "answer": "Answer. Start with the threshold. Section 109 operates only where both laws would otherwise be valid; if either Parliament lacked power, there is no inconsistency question at all. That was Latham CJ’s point in Carter v Egg and Egg Pulp Marketing Board (Vic) (1942) 66 CLR 557, where he also settled what “invalid” means: not ultra vires, but inoperative. The Commonwealth law prevails, and the State law is suspended. If the Commonwealth law is later repealed, the State law revives. Then run the three tests, in order of severity. Direct inconsistency: it is impossible to obey both laws at once, or one law takes away a right or privilege the other confers. Operational inconsistency: the State law alters, impairs or detracts from the Commonwealth law even without a head-on collision. Cover the field: the Commonwealth law shows an intention to state the whole law on the subject, leaving no room for any State law at all. Ex parte McLean (1930) 43 CLR 472 gave the formulation: an intention “to cover the subject matter and provide what the law upon it shall be”. Viskauskas v Niland (1983) 153 CLR 280 is the standard illustration. The Racial Discrimination Act 1975 (Cth) covered the field, so the NSW anti-discrimination provisions became inoperative even though a person could technically have obeyed both. University of Wollongong v Metwally (1984) 158 CLR 447 added that a retrospective Commonwealth amendment cannot rewrite history; the s 109 consequence is assessed as it stood. Keep the answer current: the slides flag Stott v Commonwealth (2025) 99 ALJR 1465 as the latest authority, so read the summary before the exam."
+        },
+        {
+          "qnum": "Q32",
+          "question": "What are the sources and limits of the executive power of the Commonwealth?",
+          "answer": "Answer. The primary source is s 61: executive power is vested in the King, exercisable by the Governor-General, and extends to the execution and maintenance of the Constitution and the laws of the Commonwealth. Its content comes from three places. First, the Constitution itself, including ss 62–70, which supply the machinery of Executive Council, ministers and command of the forces. Second, the prerogatives it absorbs. In Barton v Commonwealth (1974) 131 CLR 477, Mason J said s 61 enables all executive action appropriate to the Commonwealth’s position and spheres of responsibility under the Constitution, including the prerogative powers of the Crown. Third, the nationhood power: the Commonwealth’s character as a national polity lets it act on uniquely national matters without legislation. Davis v Commonwealth (1988) 166 CLR 79 upheld the Bicentennial Authority but struck down its disproportionate prohibitions on ordinary words, which shows the power is broad but not unlimited. Pape (2009) extended it to spending public money to avert a national economic crisis. The limits matter as much as the sources. Executive power cannot override the Constitution’s distribution of powers, and it is subject to statute, though courts demand clear words before finding displacement (De Keyser’s; Barwick CJ in Barton called the rule “extremely strong”). In Ruddock v Vadarlis (2001), the Tampa case, that rule preserved a non-statutory power to exclude non-citizens. Williams (2012) drew the fiscal line: spending beyond ordinary departmental administration needs legislative authority. Rooted in s 61, informed by nationhood, disciplined by statute."
+        },
+        {
+          "qnum": "Q33",
+          "question": "“Individual ministerial responsibility is a convention in decline.” Discuss.",
+          "answer": "Answer. The convention has plainly weakened, though reports of its death are exaggerated. Responsible government makes the executive answerable to Parliament, and through Parliament to the electorate. Individual ministerial responsibility is the strand that makes the minister personally answerable for the department: answering questions, explaining conduct, and, in the classical version, resigning after serious maladministration or misleading Parliament. It exists to protect frank and fearless public service advice; the minister is the captain answerable for what happens below decks. The decline thesis has real evidence. The home insulation scheme did not cost Peter Garrett his portfolio. The Howard government’s 1998 guide recast the convention as answerability without resignation. Departments have grown vast, so ministers delegate and plausibly deny detailed knowledge. Ministerial advisers shape policy yet appear before no committee. Intergovernmental problems like climate policy blur who answers for what. The Morrison secret ministries affair showed the stakes: Parliament cannot question a minister it does not know exists, so accountability failed completely until the appointments were revealed. Two qualifications keep the convention alive. It was never legally enforceable; it runs on political pressure, so its strength has always varied with political cost. And the accountability machinery around it has thickened: question time, Senate estimates, committees, annual reports, and an Auditor-General who reports directly to Parliament on a ten-year term, removable only by both Houses, though without enforcement power. The resignation rule has decayed. Answerability has not. The system fails only when answerability itself is evaded, and that is when the convention matters most."
+        }
+      ]
+    },
+    {
+      "num": 11,
+      "title": "NSW and Commonwealth constitutional history",
+      "key_concepts": [
+        "Derivation of Australian law from England: Blackstone’s three modes — conquest, cession, settlement. Australia treated as settled (Cooper v Stuart (1889) 14 App Cas 286): settlers brought so much English law as was ap...",
+        "Colonial legal development:",
+        "Early autocratic rule by Governors (prerogative; Rum Rebellion 1808).",
+        "New South Wales Act 1823 (Imp) — first Legislative Council (appointed); Supreme Court established.",
+        "Australian Courts Act 1828 (Imp) — reception of English law; court structure.",
+        "Australian Constitutions Act (No 1) 1842 (Imp) — partly elected Legislative Council.",
+        "Australian Constitutions Act (No 2) 1850 (Imp) — colonies empowered to draft their own constitutions.",
+        "NSW Constitution Act 1855 (Imp) — bicameral Parliament; responsible self-government (executive accountable to the legislature).",
+        "Colonial Laws Validity Act 1865 (Imp) — colonial laws void if repugnant to UK laws extending to the colony; confirmed colonial legislatures’ powers within limits.",
+        "Appeals to the Privy Council maintained imperial legal supervision (Phillips v Eyre (1870) — indirect repugnancy analysis).",
+        "Colonial courts and the people who ran them (1 Aug 2026 tutorial — all examinable, see B.11):",
+        "In England, judges had security of tenure from the Act of Settlement 1701. Colonial judges had none: they could be dismissed by the British government and ranked below the Governor."
+      ],
+      "questions": [
+        {
+          "qnum": "Q19",
+          "question": "When and how did Australia become legally independent of the United Kingdom?",
+          "answer": "Answer. Independence came in stages, not at Federation. NSW began as a settled colony, so English law was received as far as applicable to colonial conditions (Cooper v Stuart (1889)), and the Australian Courts Act 1828 fixed the reception date. Colonial legislatures were subordinate. The Colonial Laws Validity Act 1865 voided colonial laws repugnant to UK statutes extending to the colony, and the Privy Council in London heard Australian appeals as the final court. Federation in 1901 created a self-governing Commonwealth, but the Constitution was itself an Act of the UK Parliament, so legal subordination continued. The Statute of Westminster 1931 removed the main restrictions on Dominion legislation, yet Australia adopted it only in 1942, backdated to 1939. Privy Council appeals were then closed step by step: limited by the Privy Council (Limitation of Appeals) Act 1968 (Cth), ended from the High Court by the Privy Council (Appeals from the High Court) Act 1975 (Cth), and finally ended from State courts by the Australia Acts 1986, passed in matching form by the Commonwealth and UK Parliaments. Those Acts also terminated any remaining UK power to legislate for Australia. So legal independence was completed only in 1986. Federation made Australia politically self-governing; adoption of the Statute of Westminster made the Commonwealth legislatively independent; the Australia Acts completed independence for the whole federation."
+        },
+        {
+          "qnum": "Q29",
+          "question": "Trace the development of courts and legislature in NSW from 1788 to responsible government.",
+          "answer": "Answer. NSW began as a penal colony ruled by a Governor whose commission allowed regulations but not legislation. Justice was military in character. A 1787 UK Act (27 Geo III c 2) created a criminal court of a Judge Advocate and six officers with no jury, and the First Charter of Justice created a civil court with appeals to the Governor and, for claims over £300, to the Privy Council. The first case, Cable v Sinclair [1788] NSWKR 7, showed that even convicts could sue. The Second Charter (1814) created the Supreme Court of NSW, and the Third Charter (1823) built a comprehensive court system, the model for today’s, plus a Legislative Council appointed by the Crown whose laws the Chief Justice had to certify as consistent with English law. The Australian Courts Act 1828 (UK) s 24 received all English law in force on 25 July 1828 and introduced trial by jury. Representative institutions grew in steps: a Legislative Council two-thirds elected from 1842; power to create bicameral parliaments in 1850; and the New South Wales Constitution Act 1855 (UK), which established the bicameral Parliament with wide domestic powers. Subordination persisted through the Colonial Laws Validity Act 1865, which voided colonial laws repugnant to UK statutes, until the Statute of Westminster 1931 (adopted by Australia in 1942) freed NSW legislation from British paramountcy. The arc runs from a Governor’s near-absolute power to representative, responsible and legislatively independent government."
+        }
+      ]
+    },
+    {
+      "num": 12,
+      "title": "NSW and Commonwealth Constitutions compared",
+      "key_concepts": [
+        "NSW Constitution: principal source now the Constitution Act 1902 (NSW) (consolidating the 1855 (Imp) Act tradition). Unlike the Commonwealth’s single entrenched document, it is flexible — mostly amendable by ordinary ...",
+        "NSW structure — Crown and Governor:",
+        "ss 3, 8A, 9A Constitution Act 1902 (NSW) + Australia Act 1986 (Imp) ss 7–10: the Governor is the King’s representative in NSW (s 9A; Australia Act s 7(1)); the Premier advises the King directly on State matters; no mo...",
+        "Executive in practice: Governor, Premier and Ministers; the Executive Council formalises Cabinet decisions; reserve powers and responsible-government conventions mirror the Commonwealth level (executive accountable to...",
+        "NSW structure — Legislative Council (upper house):",
+        "s 7 (constitution), s 17 (election), s 22B(2): 42 members elected by state-wide proportional representation for eight-year staggered terms — half the Council faces election every four years at a general election. It i...",
+        "Manner-and-form entrenchment (CLVA 1865 tradition): s 7A — the Council cannot be abolished, and s 7A itself cannot be amended, without a referendum. Enforced in Attorney-General (NSW) v Trethowan [1932] AC 526 — a law...",
+        "Clayton v Heffron (1960) 105 CLR 214 — the s 7A referendum protects the Council even against the s 5B deadlock route: an abolition Bill must itself pass both Houses before going to the people, so the Assembly and Exec...",
+        "NSW structure — Legislative Assembly (lower house):",
+        "s 24: four-year term running from the return of the writs. Fixed four-year terms introduced by the Constitution Amendment (Fixed Term Parliaments) Act 1995 (NSW); the Governor retains power to dissolve early (on the P...",
+        "Rationale for the different terms: the Assembly gives frequent elections and direct voter accountability; the Council gives continuity and review.",
+        "Relationship between the NSW Houses — deadlock machinery:"
+      ],
+      "questions": [
+        {
+          "qnum": "Q20",
+          "question": "Compare the NSW Constitution with the Commonwealth Constitution.",
+          "answer": "Answer. The two constitutions are different in kind. The Commonwealth Constitution is a single entrenched document. It can be amended only by the s 128 double-majority referendum, it grants enumerated powers (ss 51–52), and it is supreme: laws inconsistent with it are invalid. The NSW Constitution is mainly the Constitution Act 1902 (NSW), a flexible statute amendable by ordinary legislation. McCawley (1920) confirmed that State parliaments are not generally bound by manner-and-form requirements they have not enacted. Instead of enumerated heads, s 5 grants plenary power to make laws “for the peace, welfare and good government” of the State. On separation of powers, NSW has none in the strict sense (Gilbertson v South Australia), while the Commonwealth separates judicial power strictly through Chapter III. Yet the NSW Constitution has real constitutional force in three ways. Manner-and-form entrenchment: s 7A requires a referendum to abolish the Legislative Council, and the courts enforce it (Trethowan (1931), where an injunction restrained presenting a Bill for assent without one). Federal supremacy: ss 90 and 109 of the Commonwealth Constitution bind NSW at every point. And Kable (1996): NSW cannot legislate to impair the institutional integrity of its courts, because they form part of the federal judicature. In short, NSW chose flexible, UK-style constitutionalism inside a federation, while the Commonwealth chose entrenchment and enumeration. The NSW system works only because the federal framework disciplines it."
+        },
+        {
+          "qnum": "Q31",
+          "question": "Compare the two Houses of the NSW Parliament with the Commonwealth Houses — composition, terms and deadlocks.",
+          "answer": "Answer. Both Parliaments are bicameral, but each level builds its houses on different logic. In NSW, the Legislative Assembly has 93 members from single-member districts serving fixed four-year terms running from the return of the writs (s 24, Constitution Act 1902 (NSW), fixed by the 1995 amendment). The Governor can dissolve it early on advice, but the term cannot be extended without a referendum (s 7B). The Legislative Council has 42 members elected by state-wide proportional representation for eight-year staggered terms, half facing each general election (s 22B(2)). It is a continuing body that is never dissolved, and s 7A entrenches it: abolition needs a referendum (Trethowan). The design trades accountability in the lower house against stability and institutional memory in the upper. At the Commonwealth level, the House of Representatives is elected from single-member divisions for a maximum of three years (s 28), and the nexus clause (s 24) keeps it as near as practicable twice the Senate’s size. The Senate gives the original States equal representation with six-year rotating terms (ss 7, 13), and the Territorial Senators Cases (1975 and 1977) upheld territory senators under s 122. Money Bills are privileged to the lower house (ss 53–55). The deadlock machinery differs too. The Commonwealth uses s 57: double dissolution, then a joint sitting, strictly applied (PMA Case (1975)). NSW uses ss 5A–5B: a free conference, then a referendum, which cannot be used to sidestep the Council where manner-and-form protections apply (Clayton v Heffron (1960) 105 CLR 214; compare Taylor v A-G (Qld) (1917) 23 CLR 457)."
+        }
+      ]
+    },
+    {
+      "num": 13,
+      "title": "Courts and tribunals",
+      "key_concepts": [
+        "Judicial power and separation: federal judicial power only in Ch III courts; State courts may be invested with federal jurisdiction (s 77(ii)–(iii)) but then must meet Ch III institutional-integrity standards (Kable).",
+        "Federal hierarchy:",
+        "High Court of Australia — apex; original jurisdiction ss 75 (mandamus/prohibition/injunction against Commonwealth officers — s 75(v); treaties; inter-State/Commonwealth disputes) and 76; appellate s 73 (from federal/S...",
+        "Federal Court of Australia (1976) — corporations, industrial, migration, native title, trade practices; Full Court appeals.",
+        "Federal Circuit and Family Court of Australia (FCFCOA) — since 1 September 2021 (merger of Family Court and Federal Circuit Court; Division 1 appeals/complex, Division 2 general).",
+        "State/Territory Supreme Courts exercising federal jurisdiction; cross-vesting scheme between federal/State supreme courts.",
+        "Cross-vesting limits — Re Wakim; Ex parte McNally (1999) 198 CLR 511: the Commonwealth can invest State courts with federal jurisdiction, but the States cannot confer State jurisdiction on federal courts (Ch III forbi...",
+        "NSW hierarchy:",
+        "Supreme Court of NSW (unlimited civil jurisdiction; Equity and Common Law Divisions; Court of Appeal and Court of Criminal Appeal) — Supreme Court Act 1970 (NSW).",
+        "District Court of NSW — intermediate (civil to ~$1.25m; indictable crime; limited equitable jurisdiction — lecturer’s point: know where to file).",
+        "Local Court of NSW — summary crime, small civil claims, committals.",
+        "Specialist: Land and Environment Court, Children’s Court, Coroner’s Court, Drug Court; Industrial Relations Commission."
+      ],
+      "questions": [
+        {
+          "qnum": "Q21",
+          "question": "Why does Chapter III of the Commonwealth Constitution matter to State courts?",
+          "answer": "Answer. Chapter III matters to State courts because State courts exercise federal jurisdiction. Section 77(iii) lets Parliament invest State courts with federal jurisdiction, appeals run from State Supreme Courts to the High Court under s 73, and the Judiciary Act 1903 (Cth) in fact vests State courts with federal jurisdiction across the board. Once State courts form part of that integrated federal judicature, Kable v DPP (NSW) (1996) holds that State parliaments cannot pass laws impairing their institutional integrity as courts. In Kable itself, a NSW Act directed at one named prisoner was invalid because it enlisted the Supreme Court in a function incompatible with its integrity; the court was turned into an instrument of the executive. Later cases such as Fardon and Totani confirmed and refined the doctrine. The significance is easiest to see by contrast. NSW has no strict separation of judicial power for its own purposes (Gilbertson), so without Chapter III a State parliament could hand judicial functions to the executive, or non-judicial functions to courts, at will. Chapter III sets a federal floor beneath which no State parliament may go. In the wider system, the hierarchy runs from the High Court at the apex through the federal courts and the NSW courts (Supreme, District, Local), with tribunals, the federal Administrative Review Tribunal and NCAT in NSW, reviewing administrative decisions on the merits without exercising judicial power."
+        }
+      ]
+    },
+    {
+      "num": 14,
+      "title": "Legal profession and ethics",
+      "key_concepts": [
+        "The profession: fused-in-practice but functionally divided — solicitors (advise clients, prepare matters) and barristers (advocacy, specialist advice; the Bar). Admission via the Legal Profession Admission Board (LPAB...",
+        "Legal ethics — core obligations: honesty and candour to the court; competence and diligence; confidentiality/legal professional privilege; avoiding conflicts of interest; civility; no misleading conduct. Character mat...",
+        "AI and legal practice (March 2026 Q3 theme): disruptive potential — drafting, research, prediction; risks — hallucinated citations, confidentiality breaches, competence/verification duties. Lecturer’s rule of thumb: u..."
+      ],
+      "questions": [
+        {
+          "qnum": "Q22",
+          "question": "“Artificial intelligence will not change what is owed to the court and the client — only how it is discharged.” Discuss.",
+          "answer": "Answer. I agree with that statement. The core duties do not change. The duty to the court comes first: candour, and never misleading. Then the duties to the client: competence, diligence, confidentiality. The profession enforces these seriously. In Re Liveri [2006] QCA 152, academic dishonesty defeated an application for admission because honesty goes to fitness to practise. AI changes none of it. A lawyer who files invented authorities generated by an AI tool misleads the court exactly as much as one who invents them personally, and courts in Australia and overseas have already disciplined lawyers for filing hallucinated citations. What changes is how the duties are discharged. Competence now includes verifying AI output before relying on it: checking that every cited case exists and says what is claimed. Confidentiality means not feeding client material into external AI systems without authority. The lecturer’s working rule was that using AI on client work requires the client’s consent and the professional indemnity insurer’s consent. Supervision extends to machine output just as it extends to a junior lawyer’s draft; the senior lawyer remains responsible for everything filed. So AI shifts the lawyer’s work from producing documents to verifying them, and that raises the standard of care rather than lowering it. The obligations are the constant. The technology is simply the new context in which the same obligations have to be honoured."
+        }
+      ]
+    }
+  ]
+}
