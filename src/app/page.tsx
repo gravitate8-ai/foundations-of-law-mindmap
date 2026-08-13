@@ -187,7 +187,7 @@ export default function Home() {
                 Foundations of Law
               </h1>
               <p className="text-xs text-slate-500 dark:text-slate-400 leading-tight truncate">
-                Interactive Mind Map · 14 Topics · 33 Exam Q&amp;As
+                Interactive Mind Map · {LAW_DATA.topics.length} Topics · {allQuestions.length} Exam Q&amp;As
               </p>
             </div>
           </div>
