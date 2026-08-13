@@ -560,7 +560,8 @@ function MindMapView({
     const pts = [
       { x: c + tRadius * Math.cos(topicAngle), y: c + tRadius * Math.sin(topicAngle) },
     ];
-    const qCount = topic.questions.length;
+    // Question pills — or key-point pills for topics without questions
+    const qCount = topic.questions.length || topic.key_concepts.length;
     const qAngleSpread = Math.min(Math.PI * 0.8, qCount * 0.18);
     const qStart = topicAngle - qAngleSpread / 2;
     for (let qi = 0; qi < qCount; qi++) {
@@ -774,7 +775,8 @@ function MindMapView({
               const tx = center + topicRadius * Math.cos(topicAngle);
               const ty = center + topicRadius * Math.sin(topicAngle);
               const color = getTopicColor(topic.num);
-              const qCount = topic.questions.length;
+              // Question pills — or key-point pills for topics without questions
+            const qCount = topic.questions.length || topic.key_concepts.length;
               const qAngleSpread = Math.min(Math.PI * 0.8, qCount * 0.18);
               const qStart = topicAngle - qAngleSpread / 2;
               return topic.questions.map((q, qi) => {
@@ -845,15 +847,7 @@ function MindMapView({
               transition={{ type: "spring", stiffness: 200, damping: 18, delay: i * 0.04 }}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => {
-                // Topics without questions (e.g. exam-day briefing) have no
-                // pills to expand — open their notes panel directly instead.
-                if (topic.questions.length === 0) {
-                  onTopicInfoClick(topic);
-                  return;
-                }
-                setExpandedTopic(isExpanded ? null : topic.num);
-              }}
+              onClick={() => setExpandedTopic(isExpanded ? null : topic.num)}
               className="absolute z-20 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center group cursor-pointer focus:outline-none"
               style={{ left: x, top: y, width: 96, height: 96 }}
               aria-label={`Topic ${topic.num}: ${topic.title}`}
@@ -895,7 +889,9 @@ function MindMapView({
               {/* Question count badge */}
               <div className="mt-1 text-[9px] font-medium text-slate-500 dark:text-slate-400 flex items-center gap-1">
                 <CircleDot className="w-2.5 h-2.5" style={{ color: color.accent }} />
-                {topic.questions.length} Q{topic.questions.length > 1 ? "s" : ""}
+                {topic.questions.length > 0
+                  ? `${topic.questions.length} Q${topic.questions.length > 1 ? "s" : ""}`
+                  : `${topic.key_concepts.length} notes`}
                 {studiedInTopic > 0 && (
                   <span className="text-emerald-600 dark:text-emerald-400">· {studiedInTopic}✓</span>
                 )}
@@ -957,27 +953,41 @@ function MindMapView({
             const topicIdx = topics.findIndex((t) => t.num === expandedTopic);
             const topicAngle = topicIdx * angleStep - Math.PI / 2;
             const color = getTopicColor(topic.num);
-            const qCount = topic.questions.length;
+            // Topics without questions (e.g. topic 15 exam-day briefing)
+            // surface their key points as pills instead, so every number on
+            // the wheel expands the same way.
+            const pills =
+              topic.questions.length > 0
+                ? topic.questions.map((q) => ({ kind: "question" as const, q }))
+                : topic.key_concepts.map((text, ci) => ({ kind: "concept" as const, text, ci }));
+            const qCount = pills.length;
             const qAngleSpread = Math.min(Math.PI * 0.8, qCount * 0.18);
             const qStart = topicAngle - qAngleSpread / 2;
-            return topic.questions.map((q, qi) => {
+            return pills.map((pill, qi) => {
               const qa = qCount === 1 ? topicAngle : qStart + (qi / Math.max(qCount - 1, 1)) * qAngleSpread;
               const qx = center + questionRadius * Math.cos(qa);
               const qy = center + questionRadius * Math.sin(qa);
-              const isStudied = studiedQuestions.has(q.qnum);
+              const isQuestion = pill.kind === "question";
+              const isStudied = isQuestion ? studiedQuestions.has(pill.q.qnum) : false;
               return (
                 <motion.button
-                  key={`q-${q.qnum}`}
+                  key={isQuestion ? `q-${pill.q.qnum}` : `c-${topic.num}-${pill.ci}`}
                   initial={{ scale: 0, opacity: 0, x: 0, y: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0, opacity: 0 }}
                   transition={{ type: "spring", stiffness: 260, damping: 20, delay: qi * 0.06 }}
                   whileHover={{ scale: 1.06 }}
                   whileTap={{ scale: 0.96 }}
-                  onClick={() => onQuestionClick(q, topic)}
+                  onClick={() =>
+                    isQuestion ? onQuestionClick(pill.q, topic) : onTopicInfoClick(topic)
+                  }
                   className="absolute z-30 -translate-x-1/2 -translate-y-1/2 group"
                   style={{ left: qx, top: qy }}
-                  aria-label={`Open question ${q.qnum}`}
+                  aria-label={
+                    isQuestion
+                      ? `Open question ${pill.q.qnum}`
+                      : `Key point ${pill.ci + 1} — open topic notes`
+                  }
                 >
                   <div
                     className="rounded-xl shadow-md hover:shadow-xl transition-shadow px-2.5 py-1.5 max-w-[180px] border-2 flex items-start gap-1.5 backdrop-blur-sm"
@@ -988,21 +998,25 @@ function MindMapView({
                   >
                     {isStudied ? (
                       <CheckCircle2 className="w-3 h-3 mt-0.5 flex-shrink-0 text-emerald-500" />
-                    ) : (
+                    ) : isQuestion ? (
                       <Lightbulb className="w-3 h-3 mt-0.5 flex-shrink-0" style={{ color: color.accent }} />
+                    ) : (
+                      <ScrollText className="w-3 h-3 mt-0.5 flex-shrink-0" style={{ color: color.accent }} />
                     )}
                     <div className="min-w-0">
                       <div
                         className="text-[8px] font-bold uppercase tracking-wide mb-0.5"
                         style={{ color: color.accent }}
                       >
-                        {q.qnum} · Tap to read answer
+                        {isQuestion
+                          ? `${pill.q.qnum} · Tap to read answer`
+                          : `Key point ${pill.ci + 1} · Tap for notes`}
                       </div>
                       <div
                         className="text-[10px] font-medium leading-tight line-clamp-3"
                         style={{ color: color.fg }}
                       >
-                        {q.question}
+                        {isQuestion ? pill.q.question : pill.text}
                       </div>
                     </div>
                   </div>
