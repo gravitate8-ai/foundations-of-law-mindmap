@@ -561,7 +561,7 @@ function MindMapView({
       { x: c + tRadius * Math.cos(topicAngle), y: c + tRadius * Math.sin(topicAngle) },
     ];
     // Question pills — or key-point pills for topics without questions
-    const qCount = topic.questions.length || topic.key_concepts.length;
+    const qCount = topic.questions.length || Math.min(topic.key_concepts.length, 2);
     const qAngleSpread = Math.min(Math.PI * 0.8, qCount * 0.18);
     const qStart = topicAngle - qAngleSpread / 2;
     for (let qi = 0; qi < qCount; qi++) {
@@ -776,7 +776,7 @@ function MindMapView({
               const ty = center + topicRadius * Math.sin(topicAngle);
               const color = getTopicColor(topic.num);
               // Question pills — or key-point pills for topics without questions
-            const qCount = topic.questions.length || topic.key_concepts.length;
+            const qCount = topic.questions.length || Math.min(topic.key_concepts.length, 2);
               const qAngleSpread = Math.min(Math.PI * 0.8, qCount * 0.18);
               const qStart = topicAngle - qAngleSpread / 2;
               return topic.questions.map((q, qi) => {
@@ -959,7 +959,7 @@ function MindMapView({
             const pills =
               topic.questions.length > 0
                 ? topic.questions.map((q) => ({ kind: "question" as const, q }))
-                : topic.key_concepts.map((text, ci) => ({ kind: "concept" as const, text, ci }));
+                : topic.key_concepts.slice(0, 2).map((text, ci) => ({ kind: "concept" as const, text, ci }));
             const qCount = pills.length;
             const qAngleSpread = Math.min(Math.PI * 0.8, qCount * 0.18);
             const qStart = topicAngle - qAngleSpread / 2;
