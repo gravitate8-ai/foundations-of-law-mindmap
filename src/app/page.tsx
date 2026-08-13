@@ -323,7 +323,13 @@ export default function Home() {
       </header>
 
       {/* Main content */}
-      <main className="flex-1 container mx-auto px-2 sm:px-4 py-3 sm:py-6">
+      <main
+        className={cn(
+          "flex-1 py-3 sm:py-6",
+          // Map mode uses the full window width — no container side margins
+          viewMode === "map" ? "w-full px-1 sm:px-3" : "container mx-auto px-2 sm:px-4"
+        )}
+      >
         {viewMode === "map" ? (
           <MindMapView
             topics={filteredTopics}
@@ -527,6 +533,60 @@ function MindMapView({
     return () => el.removeEventListener("wheel", onWheel);
   }, [zoomAtPoint]);
 
+  // True after the user's first manual gesture — hides the hint overlay so
+  // it never obstructs the map once they start interacting.
+  const [hasInteracted, setHasInteracted] = useState(false);
+
+  // Auto-frame: expanding a topic centres and zooms the view on that topic's
+  // section (topic tile + its question pills); collapsing refits the whole map.
+  useEffect(() => {
+    const el = wrapperRef.current;
+    if (!el) return;
+    if (expandedTopic === null) {
+      if (didInitialFit.current) fitView();
+      return;
+    }
+    const topicIdx = topics.findIndex((t) => t.num === expandedTopic);
+    if (topicIdx === -1) return;
+
+    const c = size / 2;
+    const tRadius = size * 0.32;
+    const qRadius = size * 0.46;
+    const step = (2 * Math.PI) / Math.max(topics.length, 1);
+    const topicAngle = topicIdx * step - Math.PI / 2;
+    const topic = topics[topicIdx];
+
+    // Collect anchor points: the topic tile plus each question pill
+    const pts = [
+      { x: c + tRadius * Math.cos(topicAngle), y: c + tRadius * Math.sin(topicAngle) },
+    ];
+    const qCount = topic.questions.length;
+    const qAngleSpread = Math.min(Math.PI * 0.8, qCount * 0.18);
+    const qStart = topicAngle - qAngleSpread / 2;
+    for (let qi = 0; qi < qCount; qi++) {
+      const qa = qCount === 1 ? topicAngle : qStart + (qi / Math.max(qCount - 1, 1)) * qAngleSpread;
+      pts.push({ x: c + qRadius * Math.cos(qa), y: c + qRadius * Math.sin(qa) });
+    }
+
+    // Bounding box of the section, padded for tile/pill dimensions
+    const xs = pts.map((p) => p.x);
+    const ys = pts.map((p) => p.y);
+    const minX = Math.min(...xs) - 120;
+    const maxX = Math.max(...xs) + 120;
+    const minY = Math.min(...ys) - 80;
+    const maxY = Math.max(...ys) + 80;
+
+    const cw = el.clientWidth;
+    const ch = el.clientHeight;
+    const z = clampZoom(Math.min(cw / (maxX - minX), ch / (maxY - minY)) * 0.95);
+    const boxCenter = { x: (minX + maxX) / 2, y: (minY + maxY) / 2 };
+    // Centre the box: content point maps to origin + (p - origin) * z + pan
+    applyView(z, {
+      x: cw / 2 - c - (boxCenter.x - c) * z,
+      y: ch / 2 - c - (boxCenter.y - c) * z,
+    });
+  }, [expandedTopic, topics, size, fitView, applyView]);
+
   const center = size / 2;
   const topicRadius = size * 0.32; // distance from center to topic nodes
   const questionRadius = size * 0.46; // distance from center to question pills
@@ -638,6 +698,7 @@ function MindMapView({
           touchAction: "none",
           overflow: "hidden",
         }}
+        onPointerDownCapture={() => setHasInteracted(true)}
         onPointerDown={handlePointerDown}
         onPointerMove={handlePointerMove}
         onPointerUp={handlePointerUp}
@@ -650,7 +711,7 @@ function MindMapView({
             transformOrigin: "center center",
             width: size,
             height: size,
-            transition: isDragging ? "none" : "transform 0.15s ease-out",
+            transition: isDragging ? "none" : "transform 0.3s ease-out",
           }}
         >
         <svg
@@ -784,7 +845,15 @@ function MindMapView({
               transition={{ type: "spring", stiffness: 200, damping: 18, delay: i * 0.04 }}
               whileHover={{ scale: 1.08 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => setExpandedTopic(isExpanded ? null : topic.num)}
+              onClick={() => {
+                // Topics without questions (e.g. exam-day briefing) have no
+                // pills to expand — open their notes panel directly instead.
+                if (topic.questions.length === 0) {
+                  onTopicInfoClick(topic);
+                  return;
+                }
+                setExpandedTopic(isExpanded ? null : topic.num);
+              }}
               className="absolute z-20 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center group cursor-pointer focus:outline-none"
               style={{ left: x, top: y, width: 96, height: 96 }}
               aria-label={`Topic ${topic.num}: ${topic.title}`}
@@ -988,8 +1057,9 @@ function MindMapView({
         </button>
       </div>
 
-      {/* Hint badge (top-left of the mind map) */}
-      {!isDragging && (
+      {/* Hint badge (top-left of the mind map — hidden after first interaction
+          so it never obstructs the view) */}
+      {!hasInteracted && !isDragging && (
         <div className="absolute top-3 left-3 z-40 flex items-center gap-1.5 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm rounded-lg shadow-sm border border-amber-200/50 dark:border-slate-700 px-2.5 py-1.5 text-[10px] text-slate-500 dark:text-slate-400">
           <Move className="w-3 h-3" />
           <span className="hidden sm:inline">Drag to pan · Scroll/pinch to zoom</span>
